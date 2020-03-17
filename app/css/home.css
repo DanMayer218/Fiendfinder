@@ -1,0 +1,91 @@
+body {
+  background-image: url(../images/SUM1back.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* 
+Body
+
+
+sumhead
+
+sumtitle
+
+
+jumbotron-fluid
+
+*/
+
+#sumhead {
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(71, 3, 29), rgb(0, 0, 0));
+  height: 80px;
+  border-bottom: 1px solid red;
+  box-shadow: 9px 1px 9px 8px black;
+}
+#sumtitlediv {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.623);
+  position: absolute;
+  top: 10x;
+  left: 50px;
+  border: 1px solid rgb(255, 255, 0);
+  height: 50px;
+  width: 230px;
+  padding-top: 10px;
+}
+
+#sumtitle {
+  /* font-family: "Fredericka the Great", cursive; */
+  /* font-family: "Yatra One", cursive; */
+  position: absolute;
+  top: 10x;
+  left: 30px;
+  font-family: "Gruppo", cursive;
+  font-size: 40px;
+  letter-spacing: 40px;
+  background: -webkit-linear-gradient(
+    rgb(158, 2, 2),
+    rgb(240, 8, 8),
+    rgb(247, 243, 43),
+    rgb(180, 1, 1),
+    rgb(177, 2, 2)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  height: 40px;
+  width: 250px;
+  text-align: center;
+  align-self: center;
+}
+
+.jumbotron {
+  /* opacity: 0.5; */
+  /* background-color: rgba(0, 0, 0, 0.479); */
+  background-color: rgba(255, 255, 255, 0);
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(156, 1, 1, 0.281),
+    rgb(168, 1, 1)
+  );
+  margin-top: 20px;
+  border-radius: 25px;
+  padding-left: 40px;
+  color: white;
+  text-align: right;
+  width: 60%;
+  position: absolute;
+  left: 35%;
+}
+
+.btn-primary {
+  background-color: rgba(9, 9, 145, 0.589);
+  border: 1px solid black;
+}
+#jumboh {
+  letter-spacing: 25px;
+}
+
+#jumbotext {
+  letter-spacing: 5px;
+}
