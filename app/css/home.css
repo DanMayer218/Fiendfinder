@@ -89,3 +89,32 @@ jumbotron-fluid
 #jumbotext {
   letter-spacing: 5px;
 }
+
+#questions {
+  color: white;
+}
+
+#survey {
+  color: white;
+  letter-spacing: 10px;
+}
+
+#name {
+  width: 60%;
+}
+
+#photo {
+  width: 60%;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.486);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#submit {
+  width: 50%;
+  position: absolute;
+  left: 25%;
+}
